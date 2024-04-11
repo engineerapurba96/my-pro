@@ -1,0 +1,72 @@
+[
+    {
+        "Segment": "PAN INDIA 13-24M 1V",
+        "Created_On": "3rd Apr, 2024",
+        "Customers": 1490,
+        "Email_ids": 45,
+        "Phone_number": 987966
+    },
+    {
+        "Segment": "Regional 25-36M 2V",
+        "Created_On": "5th Apr, 2024",
+        "Customers": 2300,
+        "Email_ids": 78,
+        "Phone_number": 876543
+    },
+    {
+        "Segment": "Local 37-48M 3V",
+        "Created_On": "7th Apr, 2024",
+        "Customers": 1820,
+        "Email_ids": 65,
+        "Phone_number": 765432
+    },
+    {
+        "Segment": "International 49-60M 4V",
+        "Created_On": "9th Apr, 2024",
+        "Customers": 2750,
+        "Email_ids": 92,
+        "Phone_number": 654321
+    },
+    {
+        "Segment": "Urban 61-72M 5V",
+        "Created_On": "11th Apr, 2024",
+        "Customers": 3150,
+        "Email_ids": 105,
+        "Phone_number": 543210
+    },
+    {
+        "Segment": "Rural 73-84M 6V",
+        "Created_On": "13th Apr, 2024",
+        "Customers": 1980,
+        "Email_ids": 70,
+        "Phone_number": 432109
+    },
+    {
+        "Segment": "Metro 85-96M 7V",
+        "Created_On": "15th Apr, 2024",
+        "Customers": 4020,
+        "Email_ids": 135,
+        "Phone_number": 321098
+    },
+    {
+        "Segment": "Suburban 97-108M 8V",
+        "Created_On": "17th Apr, 2024",
+        "Customers": 2600,
+        "Email_ids": 87,
+        "Phone_number": 210987
+    },
+    {
+        "Segment": "Tier I 109-120M 9V",
+        "Created_On": "19th Apr, 2024",
+        "Customers": 3780,
+        "Email_ids": 126,
+        "Phone_number": 109876
+    },
+    {
+        "Segment": "Tier II 121-132M 10V",
+        "Created_On": "21st Apr, 2024",
+        "Customers": 3150,
+        "Email_ids": 105,
+        "Phone_number": 98761
+    }
+]

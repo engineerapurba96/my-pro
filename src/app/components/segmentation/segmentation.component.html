@@ -1,0 +1,76 @@
+<body class="hm-gradient">
+  <main class="mt-3 ml-5 mr-5">
+    <div class="app-page-title pr-0">
+      <div class="page-title-wrapper justify-content-between">
+        <div class="page-title-heading mr-2"><div>Segments</div></div>
+        <div class="d-flex flex-column ml-2">
+          <button
+            type="button"
+            class="p-2 pl-4 pr-4 font-size-1 btn btn-primary btn-sm"
+          >
+            Create Segments
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-hover table-responsive mb-0">
+            <thead>
+              <tr>
+                <th class="th-lg"><a>Segment</a></th>
+                <th></th>
+                <th class="th-lg"><a>Created On</a></th>
+                <th class="th-lg"><a>Customers</a></th>
+                <th class="th-lg"><a>Email Ids</a></th>
+                <th class="th-lg"><a>Phone number</a></th>
+                <th class="th-lg"><a>Status</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of data">
+                <td style="font-weight: bold; font-size: 16px; padding-left: 2rem; color: rgb(0, 89, 243); cursor: pointer;">{{item.Segment}}</td>
+                <td style="text-align: center;"><span class="segment-status st-manual" aria-label="Manually made segment">Manual</span></td>
+                <td>{{item.Created_On}}</td>
+                <td>{{item.Customers}}</td>
+                <td>{{item.Email_ids}}</td>
+                <td>{{item.Phone_number}}</td>
+                <td>@mdo</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-center">
+            <nav class="my-4 pt-2">
+              <ul class="pagination pagination-circle pg-blue mb-0">
+                <li class="page-item disabled clearfix d-none d-md-block">
+                  <a class="page-link">First</a>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item active"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+                <li class="page-item"><a class="page-link">4</a></li>
+                <li class="page-item"><a class="page-link">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+                <li class="page-item clearfix d-none d-md-block">
+                  <a class="page-link">Last</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>

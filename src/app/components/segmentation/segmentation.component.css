@@ -1,0 +1,27 @@
+.card {
+    border-radius: 1.2rem;
+}
+.app-page-title .page-title-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.app-page-title {
+    max-width: 100% !important;
+    padding-left: 30px !important;
+    margin-top: 20px !important;
+}
+.app-page-title .page-title-heading {
+    font-size: 36px !important;
+    font-weight: 600;
+}
+span.segment-status.st-manual {
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.st-manual {
+    background: #ecf0ff;
+    color: #5b80f7;
+}
